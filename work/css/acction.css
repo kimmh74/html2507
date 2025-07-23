@@ -1,0 +1,33 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+h2 {
+    color: red;
+    margin-left: 20px;
+}
+
+#bus {
+    border: 2px solid rgb(253, 51, 1);
+    color: black;
+    padding: 1px;
+    text-align: left;
+}
+
+#walking {
+    border: 2px solid rgb(253, 51, 1);
+    color: black;
+    padding: 1px;
+    text-align: left;
+}
+
+.walk {
+    border-style: double;
+    border-width: 2px;
+    border-color: whitesmoke;
+    color: rgb(212, 194, 32);
+}

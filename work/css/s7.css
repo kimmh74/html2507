@@ -1,0 +1,101 @@
+
+        #container {
+            width: 650px;
+            margin: 0 auto;
+            padding: 5px;
+        }
+
+        #apple {
+            width: 640px;
+            border: 1px solid black;
+        }
+
+        #top {
+            color: white;
+            font-size: 1em;
+            background: black;
+            margin: 0px;
+            padding: 10px;
+        }
+
+        h2 {
+            color: #ff0000;
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 2em;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .accent {
+            color: #0000ff;
+        }
+
+        .smalltext {
+            font-size: 0.7em;
+        }
+
+        #shadow {
+            font-size: 30px;
+            background: url('../images/bg-2.jpg') no-repeat fixed;
+            background-size: cover;
+            text-align: center;
+            margin: 0;
+            border: 10px;
+            padding: 0;
+        }
+
+        .shadow1 {
+            color: #ff0000;
+            text-shadow: 1px 1px black;
+            padding: 0;
+            margin: 0;
+            border: 10px;
+        }
+
+        .shadow2 {
+            text-shadow: 5px 5px 3px #ffa500;
+
+        }
+
+        .shadow3 {
+            color: #ffa500;
+            text-shadow: 7px -7px 20px #000;
+        }
+
+        .ub {
+            width: 644px;
+            margin: 0;
+            padding: 0;
+            background-color: gray;
+            text-align: center;
+        }
+
+        li {
+            display: inline-block;
+            background-color: yellow;
+            margin: 10px;
+            padding: 10px;
+            border: solid red;
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .moirai-one-regular {
+            font-family: "Moirai One", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .black-and-white-picture-regular {
+            font-family: "Black And White Picture", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }

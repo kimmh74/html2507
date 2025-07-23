@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프런트엔드 개발자 지원서</title>
+    <link rel="shortcut icon" href="./images/faicon.jpg" type="image/x-icon">
+    <style>
+        ul {
+            list-style: none;
+        }
+
+        li {
+            line-height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#">
+        <fieldset>
+            <h1>프런트엔드 개발 지원서</h1>
+            <p>HTML, CSS, 자바스크립트의 기술을 이해하고 실무 경험이 있는 분을 찾습니다.</p>
+            <hr>
+            <p><b>개인 정보</b></p>
+            <ul>
+                <!-- <ul style="list-style: none;"> -->
+                <li>
+                    <label for="uname">이름</label>
+                    <input type="text" id="uname" placeholder="공백 없이 입력하세요" required>
+                </li>
+                <li>
+                    <label for="utel">연락처</label>
+                    <input type="tel" id="utel" required>
+                </li>
+            </ul>
+            <p><b>지원 분야</b></p>
+            <ul>
+                <!-- <ul style="list-style: none;"> -->
+                <li>
+                    <input type="radio" name="jop" id="jop_1" value="jop_web1">
+                    <label for="jop_1">웹 퍼블리싱</label>
+
+                </li>
+                <li>
+                    <input type="radio" name="jop" id="jop_2" value="jop_web2">
+                    <label for="jop_2">웹 어플리케이션 개발</label>
+                </li>
+                <li>
+                    <input type="radio" name="jop" id="jop_3" value="jop_web3">
+                    <label for="jop_3">개발 환경 개선</label>
+                </li>
+            </ul>
+            <p><b>지원 동기</b></p>
+            <textarea name="memo" id="memo" cols="60" rows="5" placeholder="본사 지원 동기를 간략히 써 주세요."></textarea>
+    </form>
+    <form>
+        <button type="submit">접수하기</button>
+        <button type="reset">다시쓰기</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
