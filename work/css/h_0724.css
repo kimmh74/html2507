@@ -22,7 +22,7 @@
             background-position: center;
             background-size: cover;
             color: aliceblue;
-            padding: 300px;
+            padding: 295px;
             margin-top: 120px;
             border-radius: 10px;
             text-align: center;
@@ -34,7 +34,8 @@
             background-color: white;
             background-image: url('../images/salad.jpg');
             background-size: cover;
-            padding: 20px;
+            color: aliceblue;
+            padding: 50px;
             margin-top: 120px;
             border-radius: 10px;
             text-align: center;
@@ -44,7 +45,7 @@
 
         footer {
             text-align: center;
-            margin-top: 40px;
+            margin-top: 20px;
             color: #777;
         }
 
@@ -54,7 +55,7 @@
 
         .sidebar {
             width: 200px;
-            background-color: #333;
+            background-color: #14aedd;
             color: white;
             height: 100vh;
             padding-top: 20px;
