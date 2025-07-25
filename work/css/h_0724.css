@@ -35,10 +35,10 @@
             background-image: url('../images/salad.jpg');
             background-size: cover;
             color: aliceblue;
-            padding: 50px;
+            padding: 100px;
             margin-top: 120px;
-            border-radius: 10px;
-            text-align: center;
+            border-radius: 10px 30px;
+            text-align: left;
             margin: 0;
         }
 
