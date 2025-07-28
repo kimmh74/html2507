@@ -15,10 +15,7 @@ h1 {
     font-size: 3.5em;
     text-align: center;
 }
-
-
-
-.colum{
+.column{
     width: 100%;
     padding: 0.5em 0;
 }
@@ -68,6 +65,10 @@ align-items: center;
     justify-content: space-between;
 }
 
+.card:hover {
+  background: linear-gradient(#6045ea, #8567f7);
+  color: #fff}
+
 .card:hover a {
     color: #fff;
 }
@@ -93,7 +94,7 @@ a:hover {
 .card {
     padding: 5em 1em;
 }
-.colum{
+.column{
     flex:  0 0 33.33%;
     max-width: 33.33%;
     padding: 0 1em;
