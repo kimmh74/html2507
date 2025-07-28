@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>집에가는 방법 찾아보기</title>
+    <link rel="stylesheet" href="./css/acction.css">
+    <style>
+        #train {
+            border: 2px solid rgb(253, 51, 1);
+            color: black;
+            padding: 1px;
+            text-align: left;
+        }
+
+        .bussG {
+            border: 2px solid greenyellow;
+            color: blueviolet;
+            padding: 1px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>수업끝나고 집에가는 방법</h1>
+    <ul>
+        <li id="train">지하철을 타고 가는방법</li>
+        <li id="bus">버스를 타고 가는방법</li>
+        <ol>
+            <li class="bussG">9번,9-1번</li>
+            <li class="bussG">2-1번</li>
+        </ol>
+        <li style="background-color: gold;">자전거를 타고하는 방법</li>
+        <li id="walking">걸어서 천천히 가는 방법</li>
+        <ol>
+            <li class="walk">음악을 들으면서 걸어간다</li>
+            <li class="walk">음악없이 뛰어간다</li>
+            <li class="walk">그냥 천천히 집에 늦게 간다</li>
+        </ol>
+    </ul>
+    <h2 id="myHeader">집에 가능방법이 어떻게 될까?..두구두구두구</h2>
+    <button onclick="displayResult()">갈수나 있을까?</button>    
+    <script>
+        function displayResult() {
+            document.getElementById("myHeader").innerHTML = "오늘 안들어 간다!!^^ 띵용~!";
+        }
+    </script>
+</body>
+
+</html>

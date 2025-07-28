@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시멘틱 태그 예시</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        nav {
+            background-color: #555;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav li {
+            margin: 0 15px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            transition: background-color 0.3s;
+        }
+        
+        nav a:hover {
+            background-color: #777;
+        }
+        
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        article {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-left: 4px solid #007bff;
+            background-color: #f8f9fa;
+        }
+        
+        aside {
+            background-color: #e9ecef;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        section {
+            margin-bottom: 25px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        
+        h1, h2, h3 {
+            color: #333;
+        }
+        
+        .highlight {
+            background-color: #fff3cd;
+            padding: 10px;
+            border-radius: 3px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- 페이지 헤더 -->
+    <header>
+        <h1>웹 개발 블로그</h1>
+        <p>HTML 시멘틱 태그에 대해 알아보세요</p>
+    </header>
+    
+    <!-- 네비게이션 -->
+    <nav>
+        <ul>
+            <li><a href="#home">홈</a></li>
+            <li><a href="#articles">글 목록</a></li>
+            <li><a href="#about">소개</a></li>
+            <li><a href="#contact">연락처</a></li>
+        </ul>
+    </nav>
+    
+    <!-- 메인 콘텐츠 -->
+    <main>
+        <section id="intro">
+            <h2>시멘틱 태그란?</h2>
+            <p>시멘틱 태그는 HTML5에서 도입된 태그로, 문서의 구조와 의미를 명확하게 표현합니다.</p>
+        </section>
+        
+        <article>
+            <header>
+                <h3>HTML5 시멘틱 태그의 장점</h3>
+                <p><time datetime="2024-01-15">2024년 1월 15일</time> 작성</p>
+            </header>
+            
+            <section>
+                <h4>1. 접근성 향상</h4>
+                <p>스크린 리더와 같은 보조 기술이 문서 구조를 더 잘 이해할 수 있습니다.</p>
+            </section>
+            
+            <section>
+                <h4>2. SEO 개선</h4>
+                <p>검색 엔진이 콘텐츠를 더 정확하게 분석하고 인덱싱할 수 있습니다.</p>
+            </section>
+            
+            <aside>
+                <h4>💡 팁</h4>
+                <p>시멘틱 태그를 사용하면 CSS 스타일링도 더 직관적이고 유지보수가 쉬워집니다.</p>
+            </aside>
+        </article>
+        
+        <article>
+            <header>
+                <h3>주요 시멘틱 태그들</h3>
+                <p><time datetime="2024-01-20">2024년 1월 20일</time> 작성</p>
+            </header>
+            
+            <section>
+                <div class="highlight">
+                    <strong>header</strong> - 페이지나 섹션의 헤더<br>
+                    <strong>nav</strong> - 네비게이션 링크<br>
+                    <strong>main</strong> - 문서의 주요 콘텐츠<br>
+                    <strong>article</strong> - 독립적인 글이나 콘텐츠<br>
+                    <strong>section</strong> - 문서의 구역<br>
+                    <strong>aside</strong> - 부가적인 정보<br>
+                    <strong>footer</strong> - 페이지나 섹션의 푸터
+                </div>
+            </section>
+        </article>
+    </main>
+    
+    <!-- 사이드바 -->
+    <aside>
+        <h3>관련 글</h3>
+        <ul>
+            <li><a href="#">CSS Grid 완전 정복</a></li>
+            <li><a href="#">JavaScript ES6 문법</a></li>
+            <li><a href="#">반응형 웹 디자인</a></li>
+        </ul>
+    </aside>
+    
+    <!-- 페이지 푸터 -->
+    <footer>
+        <p>&copy; 2024 웹 개발 블로그. 모든 권리 보유.</p>
+        <p>문의: <a href="mailto:contact@example.com" style="color: #ccc;">contact@example.com</a></p>
+    </footer>
+</body>
+</html>
