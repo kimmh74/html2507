@@ -1,0 +1,120 @@
+.container {
+    /* width: 700px; */
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(12, 100px);
+    gap: 10px 10px;
+    height: 50vh;
+}
+
+.content {
+    height: 100%;
+    background-color: #fff;
+}
+
+.box {
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+.box1 {
+    /* font-size: 20px; */
+    color: #fff;
+    /* text-align: center; */
+    background-color: #3689ff;
+    grid-column: 1 / -1;
+    grid-row-start: 1/3;
+    /* grid-row-start: 1; */
+    justify-content: left;
+    border-radius: 10PX;
+    background: url('../images/1.jpg') no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+.box2 {
+    /* width: 200px; */
+    background:url('../images/img_tree.png') no-repeat;
+    background-size: cover;
+    position: relative;
+    grid-row: 2/-3;
+    grid-column-start: 1;
+    text-align: left;
+    border-radius: 10PX;
+}
+
+.box3 {
+
+    background:url('../images/bg.jpg') no-repeat;
+    background-size: cover;
+    grid-column: 2/-1;
+    grid-row: 2/10;
+    border-radius: 10PX;
+}
+
+.box4 {
+    background-color: #ffd000;
+    grid-column: 2/-1;
+    grid-row: 10/11;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10PX;
+
+
+}
+
+.box5 {
+    background-color: #ff3f3f;
+    grid-column: 1/-1;
+    grid-row: 11/12;
+    border-radius: 10PX;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+}
+
+a {
+    display: block;
+    color:red;
+    padding: 12px 20px;
+    text-decoration: none;
+
+}
+
+
+@media (max-width: 600px) {
+    .text1 {
+        font-size: 12px;
+    }
+
+    .text2 {
+        font-size: 108px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    .text1 {
+        font-size: 22px;
+    }
+
+    .text2 {
+
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1201px) {
+    .text1 {
+        font-size: 30px;
+
+    }
+
+    .text2 {
+        font-size: 20px;
+    }
+}
