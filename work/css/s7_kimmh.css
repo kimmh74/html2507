@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+body {
+    font 14px
+}
+
+.container {
+    position: absolute;
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+}
+
+header {
+    position: relative;
+    height: 120px;
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-position: left top;
+
+}
+
+header h1 {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    text-align: center;
+    font-size: 2em;
+    color: #ffff;
+}
+
+.navi {
+    position: relative;
+    background: rgb(131, 163, 96);
+    margin-top: -16px;
+    width: 960px;
+    height: 50px;
+}
+
+.navi ul {
+    list-style: none;
+    height: 40px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    animation: glow 15s infinite alternate;
+}
+
+.navi ul li {
+    display: inline-block;
+    font-size: 18px;
+    animation: glow 15s infinite alternate;
+}
+
+.navi li:hover {
+    background-color: rgb(71, 196, 109);
+    transform: scale(1.1);
+
+}
+
+.navi a,
+.navi a:visited {
+    padding: 10px 3px 5px 22px;
+    display: block;
+    color: #fff;
+    width: 150px;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+section {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    width: 960px;
+    margin-top: -20px;
+    height: 655px;
+    text-align: center;
+    }
+    article{
+        background-image: url(../images/salad.jpg);
+        background-size: cover;
+        width: 960px;
+        margin-top: -19px;
+               
+    }
+    footer{
+        text-align: center;
+        color: #777;
+        background-color: rgb(207, 228, 235);
+        width: 960px;
+        height: 20px;
+        margin-top: -16px;
+    }
