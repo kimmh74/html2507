@@ -1,100 +1,233 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Html5_CSS3교육</title>
+    <title>mhkim의 과제방</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HTML_CSS교육<span>by kimmh</span></title>
     <style>
         body {
-            text-align: center;
+            font-family: 'Noto Sans KR', sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
         }
 
-        table,
-        th,
-        td {
-            margin-left: auto;
-            margin-right: auto;
-            /* margin: 10px auto; */
-            border: 1px solid blue;
-            border-collapse: collapse;
-            padding: 10px;
+        .wrap {
+            position: relative
+        }
 
+        nav {
+            position: absolute;
+            top: 150px;
+            right: 10px;
+            z-index: 10;
+        }
+
+        nav>ul {
+            display: flex;
+            list-style: none;
+            ;
+        }
+
+        nav ul li img {
+            width: 100px;
+            height: 70px;
+        }
+
+        nav>ul>li>a {
+            display: block;
+            text-align: center;
+            font-weight: bold;
+align-items: flex-end;
+            nav>ul>li:hover>img {
+                background: #f96167;
+            }
+        }
+
+        header>h1 {
+            position: relative;
+            height: 100px;
+            padding: 35px;
+            padding-left: 10px;
+        }
+
+        header,
+        footer {
+            background-color: #4a90e2;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header span {
+            font-size: medium;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        main h2 {
+            border-bottom: 2px solid #4a90e2;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            color: #4a90e2;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        ul.assignment-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul.assignment-list li {
+            background-color: #e9f0fb;
+            margin-bottom: 10px;
+            padding: 12px 15px;
+            border-radius: 6px;
+            transition: background-color 0.3s;
+            cursor: default;
+        }
+
+        ul.assignment-list li:hover {
+            background-color: #d0dffa;
+        }
+
+        footer p {
+            font-size: 0.9rem;
         }
     </style>
 </head>
 
 <body>
-    <h1>HtmlCss교육_kimmh</h1>
-    <hr>
-    <table>
-        <tr>
-            <th>1일차</th>
-            <td>day01_0716</td>
-            <td><a href="./work/s01_kimmh.html"><b>25/07/16</b></a>
-        </tr>
-        <tr>
-            <th>2일차</th>
-            <td>day02_0717</td>
-            <td><a href="./work/s02_kimmh.html"><b>25/07/17</b></a>
-        </tr>
-        <tr>
-            <th>3일차</th>
-            <td>day03_0718</td>
-            <td><a href="./work/s03_kimmh.html"><b>25/07/18</b></a>
-        </tr>
-        <tr>
-            <th>4일차</th>
-            <td>day04_0721</td>
-            <td><a href="./work/s04_kimmh.html"><b>25/07/21</b></a>
-        </tr>
-        <tr>
-            <th>5일차</th>
-            <td>day05_0722</td>
-            <td><a href="./work/s05_kimmh.html"><b>25/07/22</b></a>
-        </tr>
-        <tr>
-            <th>6일차</th>
-            <td>day06_0723</td>
-            <td><a href="./work/s06_kimmh.html"><b>25/07/23</b></a>
-        </tr>
-        <tr>
-            <th>7일차</th>
-            <td>day07_0724</td>
-            <td><a href="./work/s07_kimmh.html"><b>25/07/24</b></a>
-        </tr>
-        <tr>
-            <th>8일차</th>
-            <td>day08_0725</td>
-            <td><a href="./work/s08_kimmh.html"><b>25/07/25</b></a>
-        </tr>
-          <tr>
-            <th>9일차</th>
-            <td>day09_0728</td>
-            <td><a href="./work/s09_kimmh.html"><b>25/07/28</b></a>
-        </tr>
-		<tr>
-            <th>10일차</th>
-            <td>day10_0729</td>
-            <td><a href="./work/s10_kimmh.html"><b>25/07/29</b></a>
-        </tr>
-		<tr>
-            <th>11일차</th>
-            <td>day11_0730</td>
-            <td><a href="./work/s11_kimmh.html"><b>25/07/30</b></a>
-        </tr>
-		<tr>
-            <th>12일차</th>
-            <td>day09_0731</td>
-            <td><a href="./work/s12_kimmh.html"><b>25/07/31</b></a>
-        </tr>
-		<tr>
-            <th>13일차</th>
-            <td>day09_0801</td>
-            <td><a href="./work/s13_kimmh.html"><b>25/08/01</b></a>
-        </tr>
-    </table>
+    <div class="wrap">
+        <header>
+            <h1>HTML_CSS과제 <span>by kimmh</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="https://kimmh74.github.io/js2507/"><img src="./work/images/js_logo.png" alt="자바스크립트로그"><br>JS2507</a></li>
+                    <li><a href="https://kimmh74.github.io/react-site/"><img src="./work/images/react-logo.png" alt="리엑트로그"><br>react-site</a></li>
+                    <li><a href="https://kimmh74.github.io/vue-site/"><img src="./work/images/Vue-logo.png" alt="뷰로그"><br>vue-site</a></li>
+                    <li><a href="https://www.figma.com/design/na98doZqcNIiQDgeVdfRz1/figma09?node-id=0-1&t=wvhxznfuLyKH8MBy-1"><img src="./work/images/Figma-logo.png" alt="피그마로그"><br>figma공유</a></li>
+                    <li><a href="https://github.com/kimmh74/java2509"><img src="./work/images/JAVA-logo.png" alt="자바로그"><br>java2509</a></li>
+                </ul>
+            </nav>
+        </header>
 
+        <main>
+            <section>
+                <h2>day01_0716</h2>
+                <ul class="assignment-list">
+                    <li><a href="./work/s01_kimmh.html">HTML & CSS 기본 과제 제출</a></li>
+                 </ul>
+            </section>
+               <section>
+                <h2>day02_0717</h2>
+                <ul class="assignment-list">
+                    <li><a href="./work/s02_kimmh.html">HTML & CSS 기본 과제 제출</a></li>
+                 </ul>
+            </section>
+                  <section>
+                <h2>day03_0718</h2>
+                <ul class="assignment-list">
+                    <li><a href="./work/s03_kimmh.html">HTML & CSS 기본 과제 제출</a></li>
+                 </ul>
+            </section>
+                  <section>
+                <h2>day04_0721</h2>
+                <ul class="assignment-list">
+                    <li><a href="./work/s04_kimmh.html">HTML & CSS 기본 과제 제출</a></li>
+                 </ul>
+            </section>
+                  <section>
+                <h2>day05_0722</h2>
+                <ul class="assignment-list">
+                    <li><a href="./work/s05_kimmh.html">HTML & CSS 기본 과제 제출</a></li>
+                 </ul>
+            </section>
+                  <section>
+                <h2>day06_0723</h2>
+                <ul class="assignment-list">
+                    <li><a href="./work/s06_kimmh.html">HTML & CSS 기본 과제 제출</a></li>
+                 </ul>
+            </section>
+                  <section>
+                <h2>day07_0724</h2>
+                <ul class="assignment-list">
+                    <li><a href="./work/s07_kimmh.html">HTML & CSS 기본 과제 제출</a></li>
+                 </ul>
+            </section>
+                  <section>
+                <h2>day08_0725</h2>
+                <ul class="assignment-list">
+                    <li><a href="./work/s08_kimmh.html">HTML & CSS 기본 과제 제출</a></li>
+                 </ul>
+            </section>
+                  <section>
+                <h2>day09_0728</h2>
+                <ul class="assignment-list">
+                    <li><a href="./work/s09_kimmh.html">HTML & CSS 기본 과제 제출</a></li>
+                 </ul>
+            </section>
+                  <section>
+                <h2>day10_0729</h2>
+                <ul class="assignment-list">
+                    <li><a href="./work/s10_kimmh.html">HTML & CSS 기본 과제 제출</a></li>
+                 </ul>
+            </section>
+                  <section>
+                <h2>day11_0730</h2>
+                <ul class="assignment-list">
+                    <li><a href="./work/s11_kimmh.html">HTML & CSS 기본 과제 제출</a></li>
+                 </ul>
+            </section>
+                  <section>
+                <h2>day12_0731</h2>
+                <ul class="assignment-list">
+                    <li><a href="./work/s12_kimmh.html">HTML & CSS 기본 과제 제출</a></li>
+                 </ul>
+            </section>
+                  <section>
+                <h2>day09_0801</h2>
+                <ul class="assignment-list">
+                    <li><a href="./work/s13_kimmh.html">HTML & CSS 기본 과제 제출</a></li>
+                 </ul>
+            </section>
+
+
+            
+        </main>
+
+        <footer>
+            <p>© 2025 과제 제출 시스템</p>
+        </footer>
+    </div>
 </body>
 
 </html>
